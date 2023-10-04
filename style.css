@@ -1,0 +1,12 @@
+body{
+    background: url("../Recipes/images/restoran.jpg");
+}
+.main {
+    text-align: center;
+}
+#meatballb, #spaghettib, #burgerb{
+    width: 200px;
+    height: 100px;
+    font-size: 35px;
+    background-color: cornflowerblue;
+}
