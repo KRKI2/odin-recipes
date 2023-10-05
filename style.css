@@ -1,12 +1,162 @@
-body{
-    background: url("../Recipes/images/restoran.jpg");
-}
+/*main page*/
 .main {
     text-align: center;
+    background: url("../odin-recipes/images/restoran.jpg");
+    background-size: cover;
+}
+#main {
+  color: aqua;
+  font-size: 70px;
+  margin-top: 0;
+  -webkit-text-stroke: 1px black;
+  
 }
 #meatballb, #spaghettib, #burgerb{
     width: 200px;
-    height: 100px;
+    height: 80px;
     font-size: 35px;
+    border-radius: 18px;
+    margin: 20px;
+    margin-top: -20px;
     background-color: cornflowerblue;
+    border: 0;
+    
+}
+/*meatball page*/
+.mainmb{
+    text-align: center;
+    background-color: burlywood;
+}
+#mainmb{
+    background-color: rgb(177, 145, 103);
+    font-size: 57px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#meatballp{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+}
+#h2m{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#pm{
+    font-size: 20px; 
+}
+#list{
+    text-align: left;
+}
+#h2i{
+    font-size: 50px;
+    margin-bottom:10px;
+}
+#Ing, #steps{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#bmb{
+    font-size: 25px;
+    text-align:center;
+    background-color:  rgb(177, 145, 103);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+/*Spaghetti*/
+.mains{
+    text-align: center;
+    background-color: burlywood;
+}
+#mains{
+    background-color: rgb(177, 145, 103);
+    font-size: 57px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#spaghettip{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+}
+#h2i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#stepss{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#ps{
+    font-size: 20px; 
+}
+
+#bs{
+    font-size: 25px;
+    text-align:center;
+    background-color:  rgb(177, 145, 103);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+/*Burger*/
+.mainb{
+    text-align: center;
+    background-color: burlywood;
+}
+#mainb{
+    background-color: rgb(177, 145, 103);
+    font-size: 57px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#burgerp{
+    margin: auto;
+   width: 700px;
+    height: 400px;
+}
+#h2i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#stepsb{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#pb{
+    font-size: 20px; 
+}
+
+#bb{
+    font-size: 25px;
+    text-align:center;
+    background-color:  rgb(177, 145, 103);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+/*footer*/
+footer {
+    display: flex;
+    background-color: rgb(148, 148, 148);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: auto;
 }
